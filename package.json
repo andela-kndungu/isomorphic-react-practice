@@ -1,0 +1,24 @@
+{
+  "name": "isomorphic-react-practice",
+  "version": "1.0.0",
+  "description": "Trying out rendering on the server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-kndungu/isomorphic-react-practice.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "isomorpic"
+  ],
+  "author": "Kinuthia Ndung'u",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-kndungu/isomorphic-react-practice/issues"
+  },
+  "homepage": "https://github.com/andela-kndungu/isomorphic-react-practice#readme"
+}
