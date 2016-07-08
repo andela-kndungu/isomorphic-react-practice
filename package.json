@@ -4,7 +4,7 @@
   "description": "Trying out rendering on the server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --harmony ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/andela-kndungu/isomorphic-react-practice/issues"
   },
-  "homepage": "https://github.com/andela-kndungu/isomorphic-react-practice#readme"
+  "homepage": "https://github.com/andela-kndungu/isomorphic-react-practice#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
 }
