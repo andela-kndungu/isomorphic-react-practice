@@ -5,7 +5,7 @@ import HTML from './public/htmlString.js';
 const app = express();
 
 app.use((req, res) => {
-  res.end(HTML);
+  return res.end(HTML);
 });
 
 export default app;
