@@ -1,19 +1,17 @@
 import React, { PropTypes } from 'react';
 
-class MainView extedns React.Component {
-  render() {
-    return (
-      <div id="mainView">
-        <h1>To Do</h1>
-        <hr />
-        {this.props.children}
-      </div>
-    );
-  }
-}
+const MainView = (props) => {
+  return (
+    <div id="mainView">
+      <h1>To Do</h1>
+      <hr />
+      {props.children}
+    </div>
+  );
+};
 
 MainView.propTypes = {
-  children: PropTypes.object
+  children: PropTypes.object,
 };
 
 export default MainView;
